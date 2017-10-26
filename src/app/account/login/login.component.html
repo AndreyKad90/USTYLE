@@ -1,0 +1,13 @@
+<form>
+  <p>
+    <input type="text" [(ngModel)]="loginForm.login"
+           name="username" placeholder="Enter your login"/>
+  </p>
+  <p>
+    <input type="password" [(ngModel)]="loginForm.password"
+           name="password" placeholder="Enter your password"/>
+  </p>
+  <p>
+    <button (click)="login()">Sign in</button>
+  </p>
+</form>
